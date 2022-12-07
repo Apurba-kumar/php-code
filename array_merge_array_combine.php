@@ -18,7 +18,7 @@
 
 //  $arr1 = ['e'=>"noman", 'b'=>"hello", "roman",40];
 
-// //  $arr2 = array_merge($arr, $arr1); used for replace second array valur to first array
+// //  $arr2 = array_merge($arr, $arr1); used for replace second array value to first array
 
 // $arr2 = $arr+$arr1;//used for merge array but same key value remain first array value
 
