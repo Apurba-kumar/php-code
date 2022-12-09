@@ -2,7 +2,7 @@
 // $a = array(
 //     "bill"=>10,
 //     "joe"=>20,
-//     "peter"=>30
+//     "preter"=>30
 // );
 
 //we can also declear associative array like this:
