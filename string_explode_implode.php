@@ -16,7 +16,8 @@
 $arr = ["hello","world.","It's","a","beautiful","day!"];
 
 
-$array = implode(" ",$arr);
+//$array = implode(" ",$arr);
+$array = join(" ",$arr);
 
 echo "$array";
 
