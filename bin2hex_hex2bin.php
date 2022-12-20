@@ -1,7 +1,7 @@
 <?php
 
 $a = "hello world";
-$b = bin2hex($a);//convert all ASCII character to hexadecimal
+$b = bin2hex($a);//convert all ASCII character to hexadecimal randomly
 
 echo $b."<br>";
 
