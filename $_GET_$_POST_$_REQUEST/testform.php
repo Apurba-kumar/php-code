@@ -14,11 +14,20 @@
 // echo $_POST['fname'];
 
 
-//for request
+// //for request
+
+// echo "<pre>";
+// print_r($_REQUEST);
+// echo "</pre>";
+
+// echo $_REQUEST['fname'];
+
+
+//for $_SERVER
 
 echo "<pre>";
-print_r($_REQUEST);
+print_r($_SERVER);
 echo "</pre>";
 
-echo $_REQUEST['fname'];
+
 ?>

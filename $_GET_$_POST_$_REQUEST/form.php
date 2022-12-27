@@ -8,10 +8,21 @@
 </head>
 <body>
     <!-- <form action="testform.php" method="get"> -->
-    <form action="testform.php" method="post">
+    <!-- <form action="testform.php" method="post"> -->
+    <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
         Name: <input type="text" name="fname"><br><br>
         Age : <input type="text" name="age"><br><br>
         <input type="submit" name="save">
     </form>
+
+    <?php
+    
+     if(isset($_POST['save'])){
+        echo "<pre>";
+        print_r($_POST);
+        echo "</pre>";
+     }
+
+    ?>
 </body>
 </html>
